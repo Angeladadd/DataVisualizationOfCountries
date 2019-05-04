@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chart</title>
+    <script type="text/javascript" src="js/jquery-3.3.0.js"></script>
+    <script src="js/d3.v4.js"></script>
+
+    <script src="js/d3-scale-chromatic.v1.min.js"></script>
+    <script src="js/d3-geo-projection.v2.min.js"></script>
+    <link  rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<div id="select">
+    <p id="title">Title</p>
+    <button id="2010" value="2010" onclick="select_year(value)">2010</button>
+    <button id="2011" value="2011" onclick="select_year(value)">2011</button>
+    <button id="2012" value="2012" onclick="select_year(value)">2012</button>
+    <button id="2013" value="2013" onclick="select_year(value)">2013</button>
+    <button id="2014" value="2014" onclick="select_year(value)">2014</button>
+
+</div>
+<div id="histogram"></div>
+<div id="scatter_plot">
+    <p id="scatter_plot_p"></p>
+    <svg id="scatter_plot_svg"></svg>
+</div>
+<div id="map">
+    <p id="map_p"></p>
+    <svg id="map_svg"></svg>
+</div>
+<div id="line_chart">
+    <p id="line_p"></p>
+    <svg id="line_chart_svg"></svg>
+</div>
+<div id="radar">
+    <p id="radar_p"></p>
+</div>
+<div id="parallel">
+    <svg id="parallel_svg"></svg>
+</div>
+<script src="js/myjs.js"></script>
+
+</body>
+</html>
