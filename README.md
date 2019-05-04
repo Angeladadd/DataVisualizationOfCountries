@@ -18,3 +18,5 @@ go to your browser and input
 ```
 localhost:8080
 ```
+
+select Chart.html
