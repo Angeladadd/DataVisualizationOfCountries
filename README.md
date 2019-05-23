@@ -1,4 +1,12 @@
 # DataVisualization
+Homeworlk6 of CS239 Data Visualization of SJTU
+
+A Data Viz System aimming to show changes in indicators of countries in the world in 2010-2014
+
+Here is an example of my system
+
+![avatar](https://github.com/Angeladadd/DataVisualization/blob/master/1.png)
+
 Data Visualization only use Front-end， which contains histogram, scatter plot, map, line graph, radar chart, and parallel graph.
 
 Using JS,HTML,CSS
