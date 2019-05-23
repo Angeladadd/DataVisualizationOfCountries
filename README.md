@@ -1,5 +1,5 @@
 # DataVisualization
-Homeworlk6 of CS239 Data Visualization of SJTU
+Homework6 of CS239 Data Visualization of SJTU
 
 A Data Viz System aimming to show changes in indicators of countries in the world in 2010-2014
 
